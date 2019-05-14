@@ -1,0 +1,11 @@
+binomialCoefficient(n, k):
+    Initialize two stack as stackN, stackK
+    while(k != 0)
+        stackN.push(n--)
+        stackK.push(k--)
+    def
+        result <- 0
+    while(!stackN.isEmpty)
+        result *= stackN.pop()
+        result /= stackK.pop()
+    return result

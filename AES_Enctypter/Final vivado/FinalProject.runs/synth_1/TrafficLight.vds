@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Jan 13 14:00:26 2017
+# Process ID: 2456
+# Current directory: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1
+# Command line: vivado.exe -log TrafficLight.vds -mode batch -messageDb vivado.pb -notrace -source TrafficLight.tcl
+# Log file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/TrafficLight.vds
+# Journal file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TrafficLight.tcl -notrace
+Command: synth_design -top TrafficLight -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15760 
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module INV [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:3]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:14]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:26]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:38]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module OR2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:51]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module OR3 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:63]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module OR4 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:75]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NAND2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:87]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NAND3 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:99]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NAND4 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:111]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NOR2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:124]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NOR3 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:137]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module NOR4 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:150]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module XOR2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:162]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module XNOR2 [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:174]
+ERROR: [Synth 8-2715] syntax error near = [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:729]
+ERROR: [Synth 8-993] tmp01 is an unknown type [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:733]
+INFO: [Synth 8-2350] module GFUNC ignored due to previous errors [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:685]
+INFO: [Synth 8-2350] module PHA_PICK ignored due to previous errors [C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v:742]
+Failed to read verilog 'C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 15 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 13 14:00:33 2017...

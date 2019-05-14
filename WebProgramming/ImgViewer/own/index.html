@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="width=device-width, initial" />
+        <meta html-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Image Viewer</title>
+        <link 
+            rel="stylesheet"
+            type="text/css" 
+            media="screen" 
+            href="styles.css" 
+        />
+        <script type = "text/javascript" src = "main.js"> </script>
+    </head>
+
+    <body>
+
+        <div class = "image-viewer__container">
+            
+            <!-- the first row -->
+            <div class = "image-viewer__title">Image Viewer</div>
+            
+            <!-- the second row, three column || <- | img | -> || -->
+            <div  class = "image-viewer__main" >
+                <div class = "image-viewer__button">
+                    <img id = "last" class = "disabled" src = "images/back.png" onclick = "lastImg()" />
+                </div>
+
+                <img id = "display" class = "image-viewer__display" src="images/pizza01.jpg" />
+                
+                <div class = "image-viewer__button">
+                    <img id = "next" class = "" src = "images/next.png" onclick = "nextImg()"/>
+                </div>
+            </div>
+
+            <!-- the third row, source === source[0] in .js -->
+            <div id = "source" class = "image-viewer__display-source-wrapper" >
+                Source: <a href = "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/dc23cd051d2249a5903d25faf8eeee4c/BFV36537_CC2017_2IngredintDough4Ways-FB.jpg?output-quality=60&resize=1000:*"> https://img.buzzfeed.com/thumbnailer-prod-us-east-1/dc23cd051d2249a5903d25faf8eeee4c/BFV36537_CC2017_2IngredintDough4Ways-FB.jpg?output-quality=60&resize=1000:*</a>
+            </div>
+        </div>
+
+    </body>
+</html>

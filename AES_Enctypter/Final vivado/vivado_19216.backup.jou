@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 09 20:44:07 2017
+# Process ID: 19216
+# Current directory: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10336 C:\Peter\Class\Second Year\Switching Circuit and Logic Design\LAB\LAB14_FinalExt\Final vivado\FinalProject.xpr
+# Log file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/vivado.log
+# Journal file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/AES_Encoder.v}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

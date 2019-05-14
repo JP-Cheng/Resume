@@ -1,0 +1,17 @@
+pairedParentheses(string aString):
+    Initialize aStack as an empty stack
+    Read newChar
+    while ((newChar != eof) and (newChar == '(' or newChar == ')' )
+        aStack.push(newChar)
+    def
+        cnt <- 0;
+    while (!aStack.isEmpty())
+        def
+            aChar <- aStack.pop()
+        if aChar == ')'
+            cnt++
+        else
+            cnt--
+        if(cnt < 0)
+            return false
+    return (cnt == 0) ? true : false

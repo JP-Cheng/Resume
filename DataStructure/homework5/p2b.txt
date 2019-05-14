@@ -1,0 +1,12 @@
+isEmpty():
+    return this->list.getLength() == 0;
+
+push(elmnt):
+    int pos = this->list.getLength() + 1;
+    this->list.insert(pos, elmnt);
+
+pop():
+    this->list.remove(this->list.getLength());
+
+peek():
+    return this->list.getLastEntry();

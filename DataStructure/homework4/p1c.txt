@@ -1,0 +1,9 @@
+aStaticBottomUpPrinter():
+    Initialize a Stack as anotherStack
+    while(!this->isEmpty())
+        anotherStack.push(this->pop())
+    Initialize an item as aMemberItem
+    while(!anotherStack.isEmpty())
+        aMemberItem <- anotherStack.pop()
+        aMemberItem.print()
+        this->push(aMemberItem)

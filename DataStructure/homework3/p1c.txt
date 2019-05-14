@@ -1,0 +1,29 @@
+input: number of nodes n, edges m, an adjacency matrix adj[n][n]
+define Q <- vector, s <- s[0], t <- s[n]
+// below follows the functions in c++ library <vector>
+// in the queue/vector are Paths practiced in class
+
+Q.push_back(s)
+while(!Q.empty() && terminationNotFound)
+    curPath <- Q.front()
+    curNode <- Q.front().getTail()
+    Q.erase(Q.begin)
+
+    isLoop <- false
+    vector<Path> newPaths <- getNextWithResCap(curNode)
+
+    for i <- 1 to curPath.size()
+        for j <- 1 to curPath.size()
+            if curPath.node[i] == curPath.node[j]
+                isLoop <- true
+    
+    if isLoop
+        continue;
+    else
+        for i <- 0 to newPaths.size()
+            if(newPaths[i].getTail() == t)
+                return newPaths[i]
+            else
+                Q.push_back(newPaths[i])
+
+return -1

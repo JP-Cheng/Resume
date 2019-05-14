@@ -1,0 +1,8 @@
+aBottomUpPrinter(aStack):
+    Initialize a Stack as anotherStack
+    while(!aStack.isEmpty())
+        anotherStack.push(aStack.pop())
+    Initialize an item as aMemberItem
+    while(!anotherStack.isEmpty())
+        aMemberItem <- anotherStack.pop()
+        aMemberItem.print()

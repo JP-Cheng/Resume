@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.image-viewer__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image-viewer__title {
+  font-size: 4rem;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.image-viewer__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.image-viewer__button {
+  display: inline;
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.image-viewer__button i {
+  color: white;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.image-viewer__button :hover {
+  color: rgb(133, 133, 133);
+}
+
+.image-viewer__button:focus {
+  outline: none;
+}
+
+.image-viewer__display {
+  padding: 15px 15px 0 15px;
+  margin: 3rem;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.6rem;
+}
+
+.image-viewer__display-source-wrapper {
+  position: absolute;
+  font-size: 14px;
+  line-height: 1.5;
+  left: 50%;
+  transform: translate(-50%, 0);
+  min-width: 100em;
+  text-align: center;
+  align-self: flex-end;
+}
+
+#display {
+  object-fit: contain;
+  width: 40%;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3));
+  background: url(./images/loading.gif) 50% no-repeat;
+}
+
+#display-next {
+  transform: perspective(80em) rotateY(-40deg);
+  -webkit-transform: perspective(80em) rotateY(-40deg);
+  object-fit: contain;
+  width: 30%;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3));
+  background: url(./images/loading.gif) 50% no-repeat;
+}
+
+#display-prev {
+  transform: perspective(80em) rotateY(40deg);
+  -webkit-transform: perspective(80em) rotateY(40deg);
+  object-fit: contain;
+  width: 30%;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3));
+  background: url(./images/loading.gif) 50% no-repeat;
+}
+
+#source {
+  display: inline-block;
+  color: white;
+}
+
+#repeat {
+  position: absolute;
+  top: 50%;
+  right: 43.5%;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: pointer;
+}
+
+#shuffle {
+  position: absolute;
+  top: 50%;
+  right: 40.5%;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: pointer;
+}
+
+#checkbox-repeat,
+#checkbox-shuffle {
+  display: none;
+}
+
+#repeat:hover,
+#shuffle:hover {
+  color: rgb(133, 133, 133);
+}
+
+#checkbox-repeat:checked + label,
+#checkbox-shuffle:checked + label {
+  color: rgb(133, 133, 133);
+}
+
+.disabled {
+  opacity: 0.2;
+}
+
+.disabled:hover {
+  border-color: transparent !important;
+  cursor: not-allowed;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Album Viewer</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:75,100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="viewer__container">
+      <div class="image-viewer__title">Album Viewer</div>
+      <div class="image-viewer__main">
+        <button class="image-viewer__button" id="back">
+          <i class="fas fa-angle-left"></i>
+        </button>
+        <div class="image-viewer__display">
+          <img alt="previous" id="display-prev" />
+          <img alt="img" id="display" />
+          <img alt="next" id="display-next" />
+        </div>
+        <div class="image-viewer__display-source-wrapper">
+          <div id="source"></div>
+
+          <input type="checkbox" id="checkbox-repeat">
+          </input>
+          <label for="checkbox-repeat" id="repeat" >
+              <i class="fas fa-redo-alt"></i>
+          </label>
+
+          <input type="checkbox" id="checkbox-shuffle">
+          </input>
+          <label for="checkbox-shuffle" id="shuffle" >
+              <i class="fas fa-random"></i>         
+          </label>
+        </div>
+        <button class="image-viewer__button" id="next">
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

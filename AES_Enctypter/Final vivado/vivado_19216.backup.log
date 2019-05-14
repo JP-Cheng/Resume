@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 09 20:44:07 2017
+# Process ID: 19216
+# Current directory: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10336 C:\Peter\Class\Second Year\Switching Circuit and Logic Design\LAB\LAB14_FinalExt\Final vivado\FinalProject.xpr
+# Log file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/vivado.log
+# Journal file: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/MP_TimerController.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (5.3)' for IP 'clk_wiz_0' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 768.969 ; gain = 129.676
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/AES_Encoder.v}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v}}
+WARNING: [filemgmt 56-12] File 'C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/src/don't touch/lib.v' cannot be added to the project because it already exists in the project, skipping this file
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 20:53:12 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 20:53:12 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:02:00 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:02:00 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:03:17 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:03:17 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:11:08 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:11:08 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:12:52 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:12:52 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:19:40 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:19:40 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:27:24 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:27:24 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:33:29 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:33:29 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:40:44 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:40:44 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Jan 09 21:42:07 2017] Launched synth_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/synth_1/runme.log
+[Mon Jan 09 21:42:07 2017] Launched impl_1...
+Run output will be captured here: C:/Peter/Class/Second Year/Switching Circuit and Logic Design/LAB/LAB14_FinalExt/Final vivado/FinalProject.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 09 21:44:44 2017...
