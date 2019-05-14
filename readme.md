@@ -8,3 +8,7 @@
 
 ## 專業知識
 專業領域部分，曾經做過循跡自走車、網頁聊天室、FPGA五時相紅綠燈、AES Encrypter on FPGA、簡易雲端硬碟等專題，並研讀過幾篇密碼學（AES、White-Box AES、Side-Channel Attack等）論文，目前正在學習Web Programming與區塊鏈技術（Pseudo-Bitcoin and CryptoZombie by Solidity）。雖然成績不算頂尖，但仍有相當實作能力。
+
+## My github Page
+This is my [github page] (https://github.com/JP-Cheng/Resume), you can also visit by the QR code below.  
+![github page] (./githubPage.png)
