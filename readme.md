@@ -11,17 +11,17 @@
 專業領域部分，曾經做過循跡自走車（Arduino）、網頁聊天室、五時相紅綠燈（FPGA）、AES Encrypter（FPGA）、簡易雲端硬碟(Raspberry pi)等專題，並研讀過幾篇密碼學（AES、White-Box AES、Side-Channel Attack等）論文，目前正在學習**Web Programming**與**區塊鏈**技術（Pseudo-Bitcoin and CryptoZombie by Solidity），*正在進行*的專案有**[線上投票系統][3]**與**[區塊鏈租車系統][7]**。雖然成績不算頂尖，但仍有相當實作能力。
 
 #### 技能樹
-在電腦世界的母語是c++，目前比較熟悉的語言依序是**c++、javascript (React.js, React Native, Node.js, GraphQL）、Shell、Python**，會一點點Solidity跟verilog。  
+在電腦世界的**母語是c++**，目前比較**熟悉**的語言是*c++、javascript (React.js, React Native, Node.js, GraphQL）*，**做得出東西**的語言是*Shell、Python、Solidity、Verilog*，**看得懂**的語言是*C、Golang、php*。  
 在文件編寫方面，除了基礎文件之外，目前慣用的標記語言是**markdown**，正在學習**LaTeX**。  
-目前正在以生活實踐敏捷開發模式（SCRUM）；當然，為了不處於[工程師鄙視鏈][6]的下游，會使用**vi/vim**與**gitHub**是必須的。
+現在正在以生活實踐敏捷開發模式（SCRUM）；當然，為了不處於[工程師鄙視鏈][6]的下游，會使用*vi/vim*與*GitHub*是必須的。
 
 
-## My github Page
-This is my [github page][1], you will also be free to visit by the QR code below.  
+## My GitHub Page
+This is my [GitHub page][1], you will also be free to visit by the QR code below.  
 You are welcomed to contact me [by email][8].
 
 
-![github page] [2]
+![GitHub page][2]
 
 [1]: https://github.com/JP-Cheng/Resume
 [2]: ./githubPage.png
