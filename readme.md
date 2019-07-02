@@ -8,7 +8,7 @@
 
 
 ## 專業知識
-專業領域部分，曾經做過循跡自走車（Arduino）、網頁聊天室、五時相紅綠燈（FPGA）、AES Encrypter（FPGA）、簡易雲端硬碟(Raspberry pi)等專題，並研讀過幾篇密碼學（AES、White-Box AES、Side-Channel Attack等）論文，目前正在學習**Web Programming**與**區塊鏈**技術（Pseudo-Bitcoin and CryptoZombie by Solidity），*正在進行*的專案有**[線上投票系統][3]**與**[區塊鏈租車系統][7]**。雖然成績不算頂尖，但仍有相當實作能力。
+專業領域部分，曾經做過循跡自走車（Arduino）、網頁聊天室、五時相紅綠燈（FPGA）、AES Encrypter（FPGA）、簡易雲端硬碟(Raspberry pi)等專題，並研讀過幾篇密碼學（AES、White-Box AES、Side-Channel Attack等）論文，目前正在學習**Web Programming**與**區塊鏈**技術（Pseudo-Bitcoin and CryptoZombie by Solidity），*正在進行*的專案有[線上投票系統][3]與[區塊鏈租車系統][7]。雖然成績不算頂尖，但仍有相當實作能力。
 
 #### 技能樹
 在電腦世界的**母語是c++**，目前比較**熟悉**的語言是*c++、javascript (React.js, React Native, Node.js, GraphQL）*，**做得出東西**的語言是*Shell、Python、Solidity、Verilog*，**看得懂**的語言是*C、Golang、php*。  
